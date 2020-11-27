@@ -1,0 +1,232 @@
+
+.projectList-body {
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 60px;
+	margin-bottom: 40px;
+}
+.container {
+	border: #cdcdcd solid 1px;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+	margin-top: 10rpx;
+	/* height: 220px; */
+	background-color: #f6f6f6;
+}
+.top {
+	height: 68px;
+	-webkit-border-radius: 68px;
+	        border-radius: 68px;
+	background-color: #485fd1;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	color: #FFFFFF;
+}
+.top-left {
+	height: 58px;
+	width: 58px;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	margin-left: 5px;
+	margin-right: 5px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	/* flex-shrink:0; */
+	margin-right: auto;
+	font-size: 20px;
+}
+.top-center {
+	width: calc(100vw - 68px);
+	margin-left: 5px;
+	font-size: 16px;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-size: 16px;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.top-bottom {
+	width: 60px;
+	margin-left: auto;
+	font-size: 12px;
+	height: 55%;
+	background-color: #fbdc60;
+	color: #000000;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+	margin-right: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	text-align: center
+}
+.center {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+	font-size: 14px;
+	color: #646464;
+}
+.center-top {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.center-top-left {}
+.center-top-right {
+	margin-left: auto;
+}
+.center-center {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.center-center-left {}
+.center-center-right {
+	margin-left: auto;
+}
+.bottom {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: left;
+	-webkit-justify-content: left;
+	        justify-content: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	color: #7c7c7c;
+	align-items: center;
+}
+.bottom view ._p {
+	font-size: 24px;
+}
+.bottom-left {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.bottom-left ._p {
+	color: #4cacec;
+}
+.bottom-center {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.bottom-center ._p {
+	color: #da8f4a;
+}
+.bottom-right {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.bottom-right ._p {
+	color: #5fa55b;
+}
+.project-center-content-son-persion {}
+.project-center-content-son-persion view {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin-bottom: 10px;
+}
+.project-center-content-son-persion view view {
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #377cf6;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-bottom: 0px;
+}
+.red{
+	background-color:#db2f21;
+	border: #db2f21;
+}
+.blue{
+	background-color:#27e41b;
+	border: #27e41b;
+}
+.blues{
+	background-color:#8fa6f2;
+	border: #8fa6f2;
+}
+.yellow{
+	background-color:#f79316d9;
+	border: #f79316d9;
+}
+.zanwu{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-content: center;
+	        align-content: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	padding-top: 40px;
+	font-size: 16px;
+	color: #8a8a8a;
+}
+

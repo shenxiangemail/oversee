@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "u-mouth-top": "/components/u-mouth-top/u-mouth-top"
+  }
+}

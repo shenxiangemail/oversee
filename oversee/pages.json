@@ -1,0 +1,218 @@
+{
+	"globalStyle": {
+		// "navigationBarTextStyle": "white",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "交工督办系统",
+		// "navigationBarBackgroundColor": "#007AFF",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+		// "navigationStyle": "custom"  //禁用默认导航
+	},
+	"pages": [
+		
+		//常规任务首页
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarTitleText": "交工督办系统"
+			}
+		}, 
+		// 我的页面
+		{
+			"path": "pages/my/index",
+			"style": {
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"type": "none",
+								"text": "\u2713",
+								"float": "left"
+							}
+						]
+					}
+				},
+				"navigationStyle": "custom",  //禁用默认导航
+				"navigationBarTextStyle":"white" //改变微信右上角胶囊颜色，只能时白色或黑色，无法去除
+			}
+		},
+		// 常规任务单位列表
+		{
+			"path": "pages/unitsList/index",
+			"style": {
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"autoBackButton":true,
+						"type":"back",
+						"backButton":{
+							"badgeText":"返回",
+							"color":"#485fd1"
+						}
+						
+					}
+				}
+			}
+		},
+		// 常规任务单位项目列表
+		{
+			"path": "pages/unitProjectList/index",
+			"style": {
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"autoBackButton":true,
+						"type":"back",
+						"backButton":{
+							"badgeText":"返回",
+							"color":"#485fd1"
+						}
+						
+					}
+				}
+			}
+		},
+		// 常规任务添加子任务
+		{
+            "path" : "pages/subtasks/index",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"autoBackButton":true,
+						"type":"back",
+						"backButton":{
+							"badgeText":"返回",
+							"color":"#485fd1"
+						}
+						
+					}
+				}
+            }
+            
+        },
+		//任务统计
+		{
+            "path" : "pages/taskTotal/index",
+            "style" :                                                                                    
+            {
+               "navigationStyle": "custom"  //禁用默认导航
+            }
+            
+        },
+		{
+            "path" : "pages/login/index",
+            "style" :                                                                                    
+            {
+               "navigationStyle": "custom"  //禁用默认导航
+            }
+            
+        },
+		{
+            "path" : "pages/password/index",
+            "style" :                                                                                    
+            {
+                 "navigationStyle": "custom"  //禁用默认导航
+            }
+            
+        },
+		// 临时任务首页
+		{
+			"path": "pages/temporary-index/index"
+		},
+		// 临时任务单位列表
+		{
+			"path": "pages/temporary-unitsList/index",
+			"style": {
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"autoBackButton":true,
+						"type":"back",
+						"backButton":{
+							"badgeText":"返回",
+							"color":"#485fd1"
+						}
+						
+					}
+				}
+			}
+		},
+		// 临时任务单位项目列表
+		{
+			"path": "pages/temporary-unitProjectList/index",
+			"style": {
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"autoBackButton":true,
+						"type":"back",
+						"backButton":{
+							"badgeText":"返回",
+							"color":"#485fd1"
+						}
+						
+					}
+				}
+			}
+		},
+		// 临时任务添加子任务
+		{
+		    "path" : "pages/temporary-subtasks/index",
+		    "style" :                                                                                    
+		    {
+		        "enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"autoBackButton":true,
+						"type":"back",
+						"backButton":{
+							"badgeText":"返回",
+							"color":"#485fd1"
+						}
+						
+					}
+				}
+		    }
+		    
+		},{
+            "path" : "pages/aliyunData/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+
+	"tabBar": {
+		"color": "#858585",
+		"selectedColor": "#485fd1",
+		"borderStyle": "white",
+		"backgroundColor": "#f6f6f6",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/home_select.png",
+				"text": "常规任务"
+			},
+			{
+				"pagePath": "pages/temporary-index/index",
+				"iconPath": "static/classify.png",
+				"selectedIconPath": "static/classify_select.png",
+				"text": "临时任务"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "static/mine.png",
+				"selectedIconPath": "static/mine_select.png",
+				"text": "我的"
+			}
+		]
+	}
+}
